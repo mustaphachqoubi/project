@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./signUp.css">
+  <title>Sign Up - Dipsychotherapy</title>
+</head>
+<body>
+  <form action="submit" class="sign-up_container">
+    <h2>Sign Up</h2>
+
+    <input type="text" id="first-name" required placeholder="First Name" />
+
+    <input type="text" id="last-name" required placeholder="Last Name" />
+
+    <input type="email" id="email" required placeholder="Email" />
+
+    <input type="password" id="password" required placeholder="Password" />
+
+    <input type="tel" id="phone" required placeholder="Phone Number" />
+
+    <div class="dateofbirth">
+      <label for="">Date Of Birth</label> 
+      <input type="date" name="dateofbirth" />
+    </div>
+
+    <div class="gender">
+      <input type="radio" name="gender" value="male" id="male"> <label for="male">Male</label>
+      <input type="radio" name="gender" value="female" id="female"> <label for="female">Female</label>
+    </div>
+
+    <div class="role">
+      <input type="radio" name="role" value="doctor" id="doctor"> <label for="doctor">Doctor</label>
+      <input type="radio" name="role" value="patient" id="patient"> <label for="patient">Patient</label>
+    </div>
+
+    <button type="submit" class="btn">Submit</button>    
+  </form>
+</body>
+</html>
